@@ -58,8 +58,6 @@ function listProducts() {
             [
               {
                 stock_quantity: (chosenItem.stock_quantity - answer.buy),
-                product_sales: (chosenItem.product_sales + (chosenItem.price * answer.buy)),
-                units_sold: (chosenItem.units_sold + parseInt(answer.buy))
               },
               {
                 item_id: chosenItem.item_id
